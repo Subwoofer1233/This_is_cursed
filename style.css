@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.bigDaddyDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div input {
+    color: red;
+}
+div button{
+    background-color: #333;
+    color: white;
+    font-size: 30px;
+    border: 2px solid white;
+    margin-top: 15px;
+}
+.container p{
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blueLabel{
+    color: blue;
+    background-color: black;
+    border-radius: 15px;
+    font-size: 43px;
+}
+.imputsAll{
+    width: 200px;
+    height: 25px;
+}
+.greenLabel{
+    color: green;
+    background-color: black;
+    border-radius: 13px;
+    font-size: 43px;
+}
+.redLabel{
+    color: red;
+    background-color: black;
+    border-radius: 13px;
+    font-size: 43px;
+}
+.selectColorText{
+    color: white;
+    font-size: 43px;
+}
+p{
+    color: white;
+}
+div{
+    text-align: center;
+    top: 0px;
+}
+.someInputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorChangingDiv{
+    width: 550px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    /* justify-content: right;
+    align-items: left; */
+    flex-direction: column;
+    border: solid #333 8px;
+    border-radius: 15px;
+}
+.clicksTag{
+    color: black;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.rgbInsiteDiv{
+    border-radius: 10px;
+    display: inline-block;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.rgbTextInput{
+    color: white;
+    margin: 0;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(34, 34, 34);
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-top: 15px;
+    max-width: 350px;
+    max-height: 100px;
+}
+.rgbInsite{
+    color: white;
+    margin: 0;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(34, 34, 34);
+    display: inline-block;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+}
+.rgbInsiteDivP{
+    display: flex;
+    flex-direction: row;
+    display: block;
+}
+.rgbInsiteDivI{
+    display: flex;
+    flex-direction: column;
+    display: block;
+}
+.button{
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 50px;
+    border-radius: 8px;
+}
+/* .submit_button{
+    /* position: absolute;
+    top: 750px;
+    left: 25px; 
+}*/
+.button:hover{ 
+    border-radius: 10px;
+    filter: brightness(130%);
+}
+.button:active{
+    transform: translateY(0.10rem);
+    border-radius: 15px;
+    filter: brightness(95%);
+}
+.allButtons{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#colorIs_red{
+    background-color: red;
+    display: inline-block;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#colorIs_blue{
+    background-color: blue;
+    display: inline-block;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#colorIs_green{
+    background-color: green;
+    display: inline-block;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+}

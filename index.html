@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>button project and color changer</title>
+</head>
+
+<body>
+    <div class="bigDaddyDiv">
+
+        <div class="container">
+
+            <div class="info">
+                <p>Click to add, subtract, and clear the clicks counter. <br> Use the color sliders to change the color!!!</p>
+            </div>
+            
+        <div class="allButtons">
+            <button class="plussButton button">+ Add +</button>
+            <button class="minusButton button">- Subtract -</button>
+            <button class="clearNumButton button">Clear Counter</button>
+            <button class="clearColorButton button">Clear Color</button>
+            <button class="clearButton button">Clear All</button>
+            <button class="submitButton button">Submit Color</button>
+        </div>
+        
+        <div class="someInputs">
+
+            <label class="redLabel">Red</label>
+            <input class="inputsAll" type="range" id="Red" value="0" min="0" max="255">
+            <label class="greenLabel">Green</label> 
+            <input class="inputsAll" type="range" id="Green" value="0" min="0" max="255">
+            <label class="blueLabel">Blue</label>
+            <input class="inputsAll" type="range" id="Blue" value="0" min="0" max="255">
+
+        </div>
+
+    </div>
+    
+        <div class="colorChangingDiv">
+
+            <p class="clicksTag">Clicks_<a id="count">0</a></p>
+
+        </div>
+        
+        <div class="rgbInsiteDiv">
+            <div class="rgbInsiteDivP">
+                <p class="rgbInsite">curent color = 
+                    <p class="rgbInsite" id="colorIs">white
+                        <p id="colorIs_red">0</p><p id="colorIs_blue">0</p><p id="colorIs_green">0</p>
+                    </p>
+                </p>
+            </div>
+            <div class="rgbInsiteDivI">
+                <p class="rgbInsite">Current strongest color is<p id="strongestColor" class="rgbInsite"></p></p>
+                <input class="rgbTextInput" id="rgbR" type="text" value="" placeholder="red">
+                <input class="rgbTextInput" id="rgbG" type="text" value="" placeholder="green">
+                <input class="rgbTextInput" id="rgbB" type="text" value="" placeholder="blue">
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="scipt0.js"></script>    
+</body>
+
+</html>
